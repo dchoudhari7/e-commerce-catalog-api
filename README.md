@@ -53,13 +53,13 @@ cd e-commerce-product-catalog-api
 ```
 
 ### **3. Configure Database**
-* spring.datasource.url=jdbc:postgresql://localhost:5432/ecommerce_db
-* spring.datasource.username=your_db_user
-* spring.datasource.password=your_db_password
+* `spring.datasource.url=jdbc:postgresql://localhost:5432/ecommerce_db`
+* `spring.datasource.username=your_db_user`
+* `spring.datasource.password=your_db_password`
 
 ### **4. Run the Application**
 * mvn spring-boot:run
-* The API will be available at: http://localhost:8080
+* The API will be available at: `http://localhost:8080`
 
 ### **5. Authentication**
 * The API is secured with JWT authentication.
@@ -67,7 +67,7 @@ cd e-commerce-product-catalog-api
 * Authorization: Bearer YOUR_JWT_TOKEN
 
 ### **6. API Endpoints**
-* Swagger UI - http://localhost:8091/swagger-ui/index.html#/
+* Swagger UI - `http://localhost:8091/swagger-ui/index.html#/`
 
 [//]: # (* Swagger UI: http://localhost:8091/swagger-ui/index.html)
 
